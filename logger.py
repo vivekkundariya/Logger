@@ -4,10 +4,12 @@ class logger:
     __isDebug = False
 
     def enableDebug():
+        print("######DEBUG ENABLED########")
         logger.__isDebug = True
         return
     
     def disableDebug():
+        print("######DEBUG DISABLED########")
         logger.__isDebug = False
         return
 
